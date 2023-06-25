@@ -1,0 +1,178 @@
+/* App container */
+.section-block {
+  height: 200px;
+  background-color: #5da5a3;
+}
+.container {
+  background-color: #ecfafa;
+}
+.container4 {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.container3 {
+  max-width: 800px;
+  margin: -50px auto;
+}
+
+/* Header */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Filter section */
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section label {
+  font-weight: bold;
+}
+
+.filter-section input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.filter-section button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Job list */
+.job-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job-list li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Filter dialog */
+.filter-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-dialog-content {
+  background-color: #fff;
+  padding: 20px;
+
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.filter-dialog label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.filter-dialog input[type="text"] {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.filter-dialog button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.filter-dialog button.close-btn {
+  background-color: #ccc;
+}
+
+/* Clear Filter button */
+.clear-filter-btn {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.job-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.job-info h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: inline;
+}
+
+.job-info p {
+  font-size: 14px;
+  color: #888;
+  display: inline;
+  margin-left: 10px;
+}
+.name {
+  margin-left: 60px;
+  font-size: 15px;
+  font-weight: bold;
+
+  padding: 6px;
+}
+.timing {
+  margin-left: 60px;
+  font-size: 14px;
+  color: #888;
+}
+.keywords {
+  font-size: 14px;
+  color: #888;
+  margin-left: auto;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  margin: 15px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.featured {
+  background-color: #ffca28;
+  color: #fff;
+}
+
+.new {
+  background-color: #2196f3;
+  color: #fff;
+}
